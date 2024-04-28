@@ -1,0 +1,16 @@
+- Saber cuál es nuestra versión de windows | para eso abrir el buscador de windows y poner "Información del sistema"
+
+Una vez identificado copian la clave correspondiente ubicado en "windows10 claves"
+
+Ingresan el siguiente comando
+
+{
+slmgr /ipk (y con un espacio la clave de activacion del tipo de windows)
+}
+
+posterior de eso ejecutar ordenadamente los siguientes 2 comandos...
+ 
+{
+slmgr /skms kms.digiboy.ir
+slmgr /ato
+}
